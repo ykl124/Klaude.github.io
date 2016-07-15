@@ -1,19 +1,11 @@
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="myFirst.css" style="text/css">
-</head>
-<body>
-	<section>
-		<h1>KELLY'S Holly Home</h1>
-		<div class="topbar">
-			<p>IT Tech</p>
-			<p>Design</p>
-			<p>Own Stuff</p>
-		</div>
-
-	<p class="welcome">WELCOME</p>
-	</section>
-</body>
-</html>
+---
+layout: default
+title: 我的Blog
+---
+<h2>{{ page.title }}</h2>
+<p>最新文章</p>
+<ul>
+　　{% for post in site.posts %}
+　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　{% endfor %}
+</ul>
