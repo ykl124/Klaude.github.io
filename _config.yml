@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: the musical programmer
-email: zuimeng1995@gmail.com
+title: KKKZeit
+email: 124ykl@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A profolio for an artical programmer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-github_username:  Adagio-cantabile
+url: "https://ykl124.github.io/" # the base hostname & protocol for your site
+github_username:  ykl124
 
 # Build settings
 markdown: kramdown
